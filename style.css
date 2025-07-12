@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(/image/Hero-bg.png);
+  background-size: 100%;
+  max-height: 698px;
+  margin: 0 auto;
+}
+
+.btn-hover:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+.btn-hover-a:hover {
+  color: #000000;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  background-color: #f5f8ff;
+}
+
+.header-anchor {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #4e47ff;
+  padding: 12px 36px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
+
+.logo a {
+  font-size: 35px;
+  font-weight: 900;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  color: #4e47ff;
+}
+
+.content-color {
+  color: #252432;
+}
+
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+  padding: 50px 150px;
+}
+
+.content {
+  text-align: center;
+  margin-top: 158px;
+  align-items: center;
+}
+
+.content h1 {
+  padding: 35px;
+  font-size: 65px;
+}
+.content button {
+  margin-bottom: 158px;
+}
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.action {
+  display: flex;
+  gap: 220px;
+  align-items: center;
+  margin: 116px 150px;
+}
+
+.action-contain {
+  max-width: 517px;
+  max-height: 303px;
+}
+
+.action-contain h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.action-contain p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  opacity: 50%;
+}
+.action-image img {
+  border-radius: 48px;
+}
+
+.productive {
+  background-color: #e5e7ff;
+  border-radius: 24px;
+  text-align: center;
+}
+
+.productive-content {
+  display: flex;
+  justify-content: center;
+  gap: 161px;
+  padding: 0 142px 50px 142px;
+}
+
+.productive-content h2 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #4e47ff;
+  font-family: "Inter", sans-serif;
+}
+
+.productive-content p {
+  font-size: 20px;
+  color: #000000;
+  opacity: 50%;
+}
+
+.productive-headline h1 {
+  color: #252432;
+  font-weight: bold;
+  font-size: 38px;
+  padding: 50px;
+}
+
+.user {
+  margin-top: 137px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+.user h1 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.view-content {
+  max-width: 414px;
+  border-radius: 14px;
+  border: 1px solid #f2eded;
+  background-color: #fafcff;
+  padding: 24px;
+}
+
+.view-content img {
+  margin: 0 4px 24px 0;
+  width: 20px;
+  height: 20px;
+}
+
+.view-content h2 {
+  font-size: 30px;
+}
+
+.view-content p {
+  font-size: 21px;
+  margin-top: 8px;
+}
+
+.reviewer {
+  display: flex;
+  margin-top: 24px;
+}
+
+.reviewer-name {
+  margin-left: 12px;
+}
+
+.reviewer-name h4 {
+  color: #757575;
+}
+
+.reviewer-name p {
+  color: #b3b3b3;
+}
+
+.reviewer-image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.focus {
+  text-align: center;
+  margin-top: 137px;
+  background-color: #ffffff;
+}
+
+.focus-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 71px;
+}
+
+.focus-content p {
+  font-size: 22px;
+  font-weight: normal;
+  color: #000000;
+  opacity: 50%;
+  margin-top: 20px;
+}
+
+.focus-content button {
+  margin: 20px;
+  padding: 12px 36px;
+}
+
+.focus-image img {
+  border-radius: 48px;
+  margin: 0 150px 71px 150px;
+  width: 70%;
+}
+
+.from {
+  display: flex;
+  justify-content: space-between;
+  gap: auto;
+  align-items: center;
+  margin-top: 71px;
+}
+
+.from-titile {
+  font-size: 97px;
+  font-style: bold;
+}
+
+.from-item input {
+  height: 70px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
+.from textarea {
+  height: 135px;
+  border-radius: 10px;
+  width: 100%;
+  margin: 10px 0 20px 0;
+}
+
+#submit {
+  height: 62px;
+  color: white;
+  font-size: 16px;
+  background-color: #4e47ff;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
+
+#submit:hover {
+  background-color: orange;
+  color: #000000;
+}
+
+.from-item input::placeholder {
+  font-size: 20px;
+  margin: 20px 0px 20px 132px;
+  padding-left: 32px;
+}
+
+.from-item textarea::placeholder {
+  font-size: 20px;
+  padding: 20px 32px 85px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+footer {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 600px;
+  max-height: 250px;
+}
+
+.footer-nev {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.footer-store h1 {
+  font-size: 100px;
+  color: #4e47ff;
+  font-family: "Inter", sans-serif;
+  padding: 105px 0 40px 0;
+}
+
+.footer-store p {
+  color: #8987a1;
+  line-height: 0.5px;
+}
+
+.footer-nev li a {
+  text-decoration: none;
+  color: #8987a1;
+}
+.footer-nev li {
+  padding: 40px 0 105px 0;
+}
